@@ -136,3 +136,6 @@ The Service Account permissions attached to the HMAC credentials should be `stor
 
 No. For interoprability reasons we ask you to replace your `gs://` bucket prefix with `https://storage.googleapis.com/`.
 
+- **When will continuous integration be available?**
+
+Continuous integration is a feature that is being actively developed, with a select number of customers previewing it. It will be available for all customers in due course.
