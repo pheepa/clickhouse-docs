@@ -552,7 +552,7 @@ const sidebars = {
             "en/integrations/data-ingestion/kafka/confluent/custom-connector",
             "en/integrations/data-ingestion/kafka/msk/index",
             "en/integrations/data-ingestion/kafka/kafka-vector",
-            "en/integrations/data-ingestion/kafka/producer",
+            // "en/integrations/data-ingestion/kafka/producer",
             "en/integrations/data-ingestion/kafka/kafka-table-engine",
             "en/integrations/data-ingestion/kafka/confluent/index",
             "en/integrations/data-ingestion/kafka/confluent/kafka-connect-http",
