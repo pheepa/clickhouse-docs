@@ -839,11 +839,8 @@ This approach has the following advantages:
 * It implements "partitions immutability" data engineering best practice. Which simplifies incremental and parallel data processing, rollbacks, etc.
 
 
-:::note
-The `insert_overwrite` feature wasn't tested yet on a multi node setup.
-:::
 
-For detailed information on the implementation of this feature, please review the [PR](https://github.com/ClickHouse/dbt-clickhouse/pull/201) that introduced it.
+For detailed information on the implementation of this feature, please review the [PR](https://github.com/ClickHouse/dbt-clickhouse/pull/201) that introduced it. And [PR](https://github.com/ClickHouse/dbt-clickhouse/pull/394) that added support in cluster setup (`distributed_incremental` included).
 
 ## Creating a Snapshot
 
